@@ -19,7 +19,30 @@ export default class Calculator extends Component {
   }
 
   setOperation(operation) {
-    console.log('op', operation);
+    if (this.state.current === 0) {
+      this.setState({ operation, current: 1, clearDisplay: true });
+    } else {
+      const equals = operation === '=';
+      const currentOperation = this.state.operation;
+
+      const values = [...this.state.values];
+      try {
+        console.log(values[0], currentOperation, values[1]);
+        values[0] = eval(`${values[0]} ${currentOperation} ${values[1]}`);
+      } catch (error) {
+        values[0] = this.state.values[0];
+      }
+
+      values[1] = 0;
+
+      this.setState({
+        displayValue: values[0],
+        operation: equals ? null : operation,
+        current: equals ? 0 : 1,
+        clearDisplay: !equals,
+        values
+      });
+    }
   }
 
   addDigit(digit) {
@@ -38,7 +61,6 @@ export default class Calculator extends Component {
       const values = [...this.state.values];
       values[index] = newValue;
       this.setState({ values });
-      console.log('values ', values);
     }
   }
 
@@ -81,7 +103,7 @@ export default class Calculator extends Component {
         ></Button>
         <Button label="0" click={() => addDigit(0)} double></Button>
         <Button label="." click={() => addDigit('.')}></Button>
-        <Button label="=" click={() => addDigit('=')} operation></Button>
+        <Button label="=" click={() => setOperation('=')} operation></Button>
       </div>
     );
   }
