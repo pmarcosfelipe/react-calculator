@@ -1,68 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# :books: ReactJS Development
+
+Project created to study development using [ReactJS](https://pt-br.reactjs.org/) offered by [COD3R Curso Online](https://www.cod3r.com.br/portal) through [Udemy](https://www.udemy.com/course/react-redux-pt/) platform. <br>
+It is a formation course named <b>Curso React + Redux: Fundamentos e 2 Apps do Absoluto ZERO!</b> which contains 24 modules listed below:
+
+### Curso React + Redux: Fundamentos e 2 Apps do Absoluto ZERO!
+
+- Módulo 1: Introdução (5 aulas)
+- Módulo 2: Fundamentos React (27 aulas)
+- Módulo 3: [Projeto Calculadora](https://github.com/pmarcosfelipe/react-calculator) (7 aulas)
+- Módulo 4: TodoApp (Backend) (9 aulas)
+- Módulo 5: TodoApp (Frontend) (10 aulas)
+- Módulo 6: React com Redux (8 aulas)
+- Módulo 7: TodoApp (Migração para Redux) (16 aulas)
+- Módulo 8: Aplicação Final - Ciclos de Pagamentos (Backend) (14 aulas)
+- Módulo 9: Aplicação Final - Ciclos de Pagamentos (Frontend) (58 aulas)
+- Módulo 10: Melhorias e Correções (2 aulas)
+- Módulo 11: Aplicação Final - Autenticação (Backend) (11 aulas)
+- Módulo 12: Aplicação Final - Autenticação (Frontend) (6 aulas)
+- Módulo 13: Aplicação Final - Atualizando as Bibliotecas (2 aulas)
+- Módulo 14: Deploy Heroku (2 aulas)
+- Módulo 15: Bônus - Exercícios MongoDB (7 aulas)
+- Módulo 16: Bônus - Exercícios Node (11 aulas)
+- Módulo 17: Bônus - Exercícios Express (7 aulas)
+- Módulo 18: Novas Aulas! (1 aulas)
+- Módulo 19: Webpack 4 (10 aulas)
+- Módulo 20: React 16.4 (8 aulas)
+- Módulo 21: Projeto Cadastro de Usuário (15 aulas)
+- Módulo 22: Extra - CSS (8 aulas)
+- Módulo 23: Webpack [Legado] (11 aulas)
+- Módulo 24: React [Legado] (15 aulas)
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm run dev`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Author
 
-### `yarn test`
+### :bust_in_silhouette: Marcos Felipe
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- LinkedIn: [http://www.linkedin.com/in/pmarcosfelipe](http://www.linkedin.com/in/pmarcosfelipe)
 
-### `yarn build`
+## References
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[COD3R Curso Online](https://www.cod3r.com.br/portal)<br>
+[https://www.udemy.com/course/react-redux-pt/](https://www.udemy.com/course/react-redux-pt/)<br>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## :pencil: License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright @ 2019 [Marcos Felipe](http://www.linkedin.com/in/pmarcosfelipe).<br>
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
